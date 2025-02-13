@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: white;
+        }
+        .navbar a {
+            text-decoration: none;
+            color: black;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+        .logo {
+            font-weight: bold;
+            color: #007bff;
+            font-size: 20px;
+        }
+        .hero {
+            position: relative;
+            text-align: left;
+            color: black;
+            font-weight: bold;
+        }
+        .hero img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .hero-text {
+            position: absolute;
+            top: 50%;
+            left: 10%;
+            transform: translateY(-50%);
+            font-size: 5em;
+            color: black;
+        }
+        .sub-text {
+            position: absolute;
+            top: 40%;
+            left: 10%;
+            font-size: 3em;
+            color: gray;
+            letter-spacing: 2px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">Company</div>
+        <div>
+            <a href="#">Home</a>
+            <a href="#">Our Work</a>
+            <a href="#">Contacts</a>
+        </div>
+    </div>
+    <div class="hero">
+        <img src="https://i.pinimg.com/originals/b8/28/08/b828081f45986c06a4b309c307b9809a.jpg" alt="Background Image">
+        <div class="sub-text">THAT IS RIGHT</div>
+        <div class="hero-text">We make great things...</div>
+    </div>
+</body>
+</html>
